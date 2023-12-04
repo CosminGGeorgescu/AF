@@ -8,3 +8,5 @@
 |4   |:white_check_mark:||
 |5   |:white_check_mark:|:no_entry_sign:|
 |6   |$1/2$             |:no_entry_sign:|
+
+punctajele oferite de domnul laborant Miclaus :grin:
