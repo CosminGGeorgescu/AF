@@ -48,7 +48,7 @@ int main(){
             dfs(i);
     
     vector<pair<int, int>> sorted(fin.begin(), fin.end());
-    sort(sorted.begin(), sorted.end(), [](const pair<int, int>& a, const pair<int, int>& b) { return a.second > b.second; });
+    sort(sorted.begin(), sorted.end(), [&](const pair<int, int> a, const pair<int, int> b) { return a.second > b.second; });
     
     fill(visited.begin(), visited.end(), 0);
     for (pair<int, int>& it : sorted)

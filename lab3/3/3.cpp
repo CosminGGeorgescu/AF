@@ -11,7 +11,7 @@ ifstream fin("retea.in");
 
 unordered_map<int, vector<pair<int, int>>> graph;
 priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
-vector<int> controls, d, tata;
+vector<int> d, tata;
 
 
 int main() {
