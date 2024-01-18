@@ -7,7 +7,6 @@
 
 using namespace std;
 
-
 ifstream fin("grafpond.in");
 ofstream fout("grafpond.out");
 
