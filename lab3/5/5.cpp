@@ -1,9 +1,7 @@
 #include <fstream>
-#include <unordered_set>
 #include <vector>
 #include <queue>
 #include <stack>
-#include <iostream>
 #include <optional>
 #include <algorithm>
 #include <iterator>
@@ -14,7 +12,6 @@ ifstream fin("grafpond.in");
 ofstream fout("grafpond.out");
 
 vector<tuple<int, int, int>> graph;
-priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;
 vector<optional<int>> d;
 vector<int> tata;
 
